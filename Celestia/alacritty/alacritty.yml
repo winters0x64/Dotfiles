@@ -1,0 +1,88 @@
+# Set environment variable
+env:
+  TERM: alacritty
+
+## Window settings
+window:
+  dimensions:
+    columns: 82
+    lines: 25
+
+  padding:
+    x: 12
+    y: 12
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+  # Scrolling
+  history: 10000
+  multiplier: 3
+
+# Opacity
+opacity: 1
+
+# Cursor
+cursor:
+  style:
+    shape: beam
+    blinking: On
+
+  unfocused_hollow: false
+
+## Live reload
+live_config_reload: true
+
+
+
+# Font configuration
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Medium
+
+  bold:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold
+
+  italic:
+    family: "JetBrainsMono Nerd Font"
+    style: Italic
+
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold Italic
+
+  # Point size
+  size: 8
+
+
+
+# Color configuration
+colors:
+  primary:
+    background: '#101010'
+    foreground: '#f0f0f0'
+
+  normal:
+    black:   '#262626'
+    red:     '#ac8a8c'
+    green:   '#8aac8b'
+    yellow:  '#aca98a'
+    blue:    '#8f8aac'
+    magenta: '#575757'
+    cyan:    '#575757'
+    white:   '#f0f0f0'
+    orange:  '#c6a679' 
+
+  bright:
+    black:   '#4c4c4c'
+    red:     '#c49ea0'
+    green:   '#9ec49f'
+    yellow:  '#c4c19e'
+    blue:    '#a39ec4'
+    magenta: '#575757'
+    cyan:    '#575757'
+    white:   '#f0f0f0'
+    orange:  '#ceb188' 
