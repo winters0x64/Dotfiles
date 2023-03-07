@@ -1,0 +1,32 @@
+* {
+	background-color: #101010;
+}
+
+window {
+	background-color: #101010;
+	border-color: #f0f0f0;
+}
+
+element {
+	text-color: #f0f0f0;
+}
+
+element selected {
+	text-color: #101010;
+	background-color: #f0f0f0;
+}
+
+element-text{
+	background-color: inherit;
+	text-color: inherit;
+}
+
+entry {
+	text-color: #f0f0f0;
+}
+
+prompt {
+	text-color: #f0f0f0;
+}
+
+

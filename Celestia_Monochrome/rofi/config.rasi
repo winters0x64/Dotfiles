@@ -1,0 +1,26 @@
+// Loading the theme
+@theme "~/.config/rofi/color_scheme/monochrome.rasi"
+
+configuration {
+	font: "JetBrainsMono Nerd Font 12";
+	display-run: "Launch:";
+}
+
+window { 
+	width: 35%;
+	orientation: vertical;
+	border: 1px;
+}
+
+mainbox {
+	children: [inputbar, listview];
+}
+
+element {
+	padding: 4 12;
+}
+
+element selected {
+	border-radius: 10px;
+}
+
